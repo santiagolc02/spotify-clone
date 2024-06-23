@@ -1,0 +1,188 @@
+.library {
+    height: 93vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.home-search {
+    height: 9%;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.2vw;
+    align-content: center;
+}
+
+.library-div {
+    height: 89.8%;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.2vw;
+    margin-bottom: 0.5vh;
+}
+
+.library-top {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.5vw;
+}
+
+.library-button-library {
+    height: 45%;
+    width: 40%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7vw;
+    color: rgb(147, 147, 147);
+    border: none;
+    margin-left: 0.1vw;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.library-button-library h4 {
+    margin-left: 0.4vw;
+}
+
+.library-button-library:hover {
+    color: white;
+}
+
+.library-icons {
+    height: 100%;
+    width: 20%;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.5vw;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    font-size: 0.8vw;
+    color: rgb(147, 147, 147);
+    border: none;
+    margin-left: 6vw;
+}
+
+.plus-sign {
+    background-color: rgb(21, 21, 21);
+    border: none;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.plus-sign:hover {
+    color: white;
+}
+
+.show-more {
+    margin-left: 0.7vw;
+    background-color: rgb(21, 21, 21);
+    border: none;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.show-more:hover {
+    color: white;
+}
+
+.library-buttons {
+    height: 4%;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.library-buttons-button {
+    height: 70%;
+    width: auto;
+    border-radius: 0.5vw;
+    padding-left: 0.4vw;
+    padding-right: 0.4vw;
+    font-size: 0.55vw;
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s ease;
+}
+
+.library-buttons-button:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.search-recents {
+    display: flex;
+    height: 4%;
+    width: 94%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0.5vw;
+    color: rgb(147, 147, 147);
+    font-size: 0.7vw;
+}
+
+.search-button {
+    background-color: rgb(21, 21, 21);
+    border: none;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.search-button:hover {
+    color: white;
+}
+
+.recents-button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    border: none;
+    color: rgb(147, 147, 147);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.recents-button h4 {
+    font-size: 0.55vw;
+}
+
+.recents-button-icon {
+    margin-top: 3%;
+    margin-left: 0.2vw;
+    font-size: 0.7vw;
+}
+
+.recents-button:hover {
+    color: white;
+}
+
+.library-albums {
+    height: 87%;
+    width: 100%;
+    overflow: auto;
+}
+
+/* Custom Scroll Bar for WebKit browsers */
+.library-albums::-webkit-scrollbar {
+    width: 0.2vw; /* You can adjust this width if needed */
+}
+
+.library-albums::-webkit-scrollbar-thumb {
+    background: #737373;
+    border-radius: 2vw;
+}

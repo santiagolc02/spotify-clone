@@ -1,0 +1,48 @@
+.library-album {
+    height: 45px;
+    width: 100%;
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+    padding-left: 0.3vw;
+    border-radius: 0.2vw;
+}
+
+.library-album img {
+    width: 30px;
+    height: 30px;
+}
+
+.library-album:hover {
+    background-color: rgb(44, 44, 44);
+}
+
+.library-album-cover {
+    height: 3.3vh;
+    width: 1.7vw;
+    border-radius: 0.2vw;
+}
+
+.library-album-info {
+    margin-left: 0.1vw;
+}
+
+.library-album-title {
+    font-size: 0.7vw;
+    margin-left: 0.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.library-album-band {
+    font-size: 0.55vw;
+    display: flex;
+    margin-left: 0.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(147, 147, 147);
+    margin-top: 0.6vh;
+}

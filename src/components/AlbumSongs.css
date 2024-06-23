@@ -1,0 +1,68 @@
+.album-songs {
+    width: 100%;
+    height: 64.5%;
+    margin-top: 3.5vh;
+    border-radius: 0.2vw;
+}
+
+.album-songs-texts {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw
+}
+
+.album-songs-number {
+    width: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(123, 123, 123);
+}
+
+.album-songs-title {
+    width: 47%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: rgb(123, 123, 123);
+}
+
+.album-songs-plays {
+    width: 46%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: rgb(123, 123, 123);
+}
+
+.album-songs-time {
+    color: rgb(123, 123, 123);
+    font-size: 10px;
+}
+
+.album-songs-container {
+    width: 100%;
+    overflow: auto;
+    height: 94.3%;
+    border-radius: 0.2vw;
+}
+
+/* Custom Scroll Bar for WebKit browsers */
+.album-songs-container::-webkit-scrollbar {
+    width: 0.2vw; /* You can adjust this width if needed */
+}
+
+.album-songs-container::-webkit-scrollbar-thumb {
+    background: #737373;
+    border-radius: 2vw;
+}
+
+.song-credits {
+    height: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1vw;
+    color: rgb(131, 131, 131);
+}

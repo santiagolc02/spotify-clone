@@ -1,0 +1,23 @@
+.library-button {
+    height: 20%;
+    width: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.7vw;
+    background-color: rgb(21, 21, 21);
+    color: rgb(147, 147, 147);
+    display: flex;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.8vh;
+    margin-bottom: 1.8vh;
+    margin-left: 0.8vw;
+    transition: color 0.3s ease;
+}
+
+.library-button span {
+    margin-right: 0.6vw;
+}
+
+.library-button:hover {
+    color: #ffffff;
+}

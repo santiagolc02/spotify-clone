@@ -1,0 +1,80 @@
+.friend {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.1vh;
+    transition: 0.3s ease;
+    border-radius: 0.2vw;
+}
+
+.friend:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.friend img {
+    width: 13%;
+    margin-left: 0.3vw;
+    border-radius: 1vw;
+}
+
+.friend-info {
+    margin-left: 0.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(197, 197, 197);
+}
+
+.friend-info h4 {
+    font-size: 10px;
+    transition: 0.3s ease;
+    width: fit-content;
+    transition: 0.3s ease;
+}
+
+.friend-info h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+.friend-info p {
+    font-size: 8.5px;
+}
+
+.song-artist {
+    font-size: 8.5px;
+    margin-bottom: 0.5vh;
+    margin-top: 0.5vh;
+    color: rgb(134, 134, 134);
+    width: 11vw;
+    overflow: hidden; /* Hides any overflow content */
+    white-space: nowrap; /* Prevents the text from wrapping to a new line */
+    text-overflow: ellipsis; /* Adds an ellipsis (...) at the end of the overflowing text */
+}
+
+.friendly-info-album {
+    display: flex;
+    font-size: 0.5vw;
+    color: rgb(134, 134, 134);
+}
+
+.friendly-info-album p {
+    transition: 0.3s ease;
+}
+
+.friendly-info-album p:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+.friendly-info-album span {
+    margin-right: 0.2vw;
+}
+
+.currently {
+    font-size: 0.5vw;
+    color: white;
+    margin-left: auto;
+    margin-right: 0.5vw;
+}

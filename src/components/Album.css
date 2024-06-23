@@ -1,0 +1,8 @@
+.album {
+    height: 92.5vh;
+    width: 69vw;
+    background-color: rgb(21, 21, 21);
+    border-radius: 0.2vw;
+    margin-left: 0.4vw;
+    background: linear-gradient(to bottom, #05023a, rgb(21, 21, 21)); /* Adjust colors and direction as needed */
+}
